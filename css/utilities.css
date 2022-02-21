@@ -1,0 +1,24 @@
+:root{  
+    --primary-color: #191c9e;
+    --secondary-color: #e6e6ed;
+    --text-color: #1b1b1c;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 9px;
+
+    --default-color: #004aad;
+    --danger-color: #ee1a1a;
+    --success-color: #0a6d0a;
+    --warning-color: #9ee730;
+    --background-color: #ffffff;
+    --offline-color: #808080;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
