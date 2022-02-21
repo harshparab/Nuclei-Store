@@ -1,6 +1,5 @@
 .container {
     width: 100%;
-    margin: 0 auto;
 }
 
 .navigation {
@@ -54,3 +53,7 @@
     margin-top: 1rem;
 }
 
+.product-link {
+    position: relative;
+    top: 30%;
+}

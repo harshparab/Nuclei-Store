@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+}
+
+.product-page {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-width {
+    width: 30%;
+}
+
+.card-img {
+    width: 50%;
+    height: 50%;
+}
+
+.card-subtitle {
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
