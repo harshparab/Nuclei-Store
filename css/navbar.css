@@ -48,8 +48,9 @@
     color: var(--text-color);
 }
 
-.icon {
-    width: 1.5rem;
-    height: 1.5rem;
+.product-link {
+    position: relative;
+    top: 30%;
+    margin-top: 1rem;
 }
 

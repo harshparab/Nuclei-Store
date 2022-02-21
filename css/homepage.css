@@ -16,7 +16,7 @@
 
 .content {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 40%;
     transform: translate(-35%, -35%);
     color: var(--background-color);
