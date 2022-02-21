@@ -5,7 +5,7 @@
 
 .homepage-image {
     width: 100%;
-    border-radius: 0.5rem;
+    border-radius: 8px;
     box-shadow: var(--box-shadow);
 }
 
