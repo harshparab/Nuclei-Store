@@ -9,7 +9,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.container {
+.image-container {
     position: relative;
     text-align: center;
 }
