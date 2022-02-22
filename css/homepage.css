@@ -1,5 +1,6 @@
-.container {
-    width: 100%;
+.homepage-content {
+    width: 80%;
+    margin: 3rem auto;    
 }
 
 .homepage-image {
@@ -15,7 +16,7 @@
 
 .content {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 40%;
     transform: translate(-35%, -35%);
     color: var(--background-color);
@@ -23,39 +24,10 @@
     font-weight: 1000;
 }
 
-.products-link {
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
-
-.button {
-    font-weight: 700;
-    font-size: 1.5rem;
-    background: var(--default-color);
-    color: var(--background-color);
-    width: max-content;
-    padding: 1rem 1rem;
-    border-radius: 1.7rem;
-    border: none;
-    cursor: pointer;
-    margin: 1rem;
-    box-shadow: var(--box-shadow);
-}
-
-.link-button {
-    background-color: var(--default-color);
-    color: var(--background-color);
-}
-
-.link {
-    text-decoration: none;
-    color: var(--background-color);
-}
-
 .genre {
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
-    margin: 2rem;
 }
 
-  
+
