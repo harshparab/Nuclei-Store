@@ -8,3 +8,12 @@
     width: 100%;
     margin: 0 auto;
 }
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.product-page {
+    width: 100%;
+}
