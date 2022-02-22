@@ -53,3 +53,7 @@
     height: 1.5rem;
 }
 
+.product-link {
+    position: relative;
+    top: 30%;
+}
