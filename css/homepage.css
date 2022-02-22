@@ -1,5 +1,6 @@
-.container {
-    width: 100%;
+.homepage-content {
+    width: 80%;
+    margin: 3rem auto;    
 }
 
 .homepage-image {
@@ -8,14 +9,14 @@
     box-shadow: var(--box-shadow);
 }
 
-.image-container {
+.container {
     position: relative;
     text-align: center;
 }
 
 .content {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 40%;
     transform: translate(-35%, -35%);
     color: var(--background-color);
