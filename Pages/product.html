@@ -1,229 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://nucleiui.netlify.app/css/component.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/utilities.css">
-    <link rel="stylesheet" href="/css/product.css">
-    <title>Nuclei Store</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://nucleiui.netlify.app/css/component.css">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/utilities.css">
+  <link rel="stylesheet" href="/css/product.css">
+  <title>Nuclei Store | Products</title>
 </head>
+
 <body>
-    <div class="container">
-        <nav class="navigation">
-            <div class="left-nav">
-                <a href="#">Nuclei Store</a>
+  <div class="container">
+    <nav class="navigation">
+      <div class="left-nav">
+        <a href="#">Nuclei Store</a>
+      </div>
+      <ul class="right-nav">
+        <li><a href="/index.html" class="product-link">Home</a></li>
+        <li><a href="#"><img class="icon" src="/asset/love.svg"></a></li>
+        <li><a href="#"><img class="icon" src="/asset/cart.svg"></a></li>
+        <li><a href="#"><img class="icon" src="/asset/user.svg"></a></li>
+      </ul>
+    </nav>
+  </div>
+  <main class="doc-container product-page">
+    <aside class="side-bar product-sidebar">
+      <div class="list-topic">Filters</div>
+      <div class="list-topic">Price</div>
+      <ul class="list-subtopic">
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              Below Rs.1000
+            </label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              Below Rs.500
+            </label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              Below Rs.200
+            </label>
+          </div>
+        </li>
+      </ul>
+      <div class="list-topic">Category</div>
+      <ul class="list-subtopic">
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              Fiction
+            </label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              Non-Fiction
+            </label>
+          </div>
+        </li>
+      </ul>
+      <div class="list-topic">Rating</div>
+      <ul class="list-subtopic">
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              4 and above
+            </label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              3 and above
+            </label>
+          </div>
+        </li>
+        <li>
+          <div>
+            <label for="checkbox-2">
+              <input id="checkbox-2" name="checkbox" type="checkbox">
+              2 and above
+            </label>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    <section class="doc-content">
+      <div class="flexbox">
+        <div class="card">
+          <img class="card-img" src="/asset/book1.jpg" alt="product">
+          <div class="card-title">Kane and Abel</div>
+          <div class="card-price">₹849</div>
+          <span class="new-sign">New</span>
+          <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
+          <div class="card-link">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
             </div>
-            <ul class="right-nav">
-                <li><a href="/index.html" class="product-link">Home</a></li>
-                <li><a href="#"><img class="icon" src="/asset/love.svg"></a></li>
-                <li><a href="#"><img class="icon" src="/asset/cart.svg"></a></li>
-                <li><a href="#"><img class="icon" src="/asset/user.svg"></a></li>
-            </ul>
-        </nav>
-    </div>
-    <main class="doc-container product-page">
-        <aside class="side-bar product-sidebar">
-            <div class="list-topic">Filters</div>
-            <div class="list-topic">Price</div>   
-            <ul class="list-subtopic">
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            Below Rs.1000   
-                        </label>
-                    </div>
-                </li>
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            Below Rs.500
-                        </label>
-                    </div>
-                </li>
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            Below Rs.200   
-                        </label>
-                    </div>
-                </li>
-            </ul>
-            <div class="list-topic">Category</div>
-            <ul class="list-subtopic">
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            Fiction   
-                        </label>
-                    </div>
-                </li>
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            Non-Fiction   
-                        </label>
-                    </div>
-                </li>
-            </ul>
-            <div class="list-topic">Rating</div>
-            <ul class="list-subtopic">
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            4 and above  
-                        </label>
-                    </div>
-                </li>
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            3 and above   
-                        </label>
-                    </div>
-                </li>
-                <li>  	
-                    <div>    
-                        <label for="checkbox-2">
-                        <input id="checkbox-2" name="checkbox" type="checkbox">
-                            2 and above 
-                        </label>
-                    </div>
-                </li>
-            </ul>
-        </aside>
-        <section class="doc-content">
-            <div class="flexbox">
-                <div class="card">
-                    <img class="card-img" src="/asset/book1.jpg" alt="product">
-                    <div class="card-title">Kane and Abel</div>
-                    <div class="card-price">₹849</div>
-                    <span class="new-sign">New</span>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book7.jpg" alt="product">
-                    <div class="card-title">Ram</div>
-                    <div class="card-price">₹249</div>
-                    <span class="new-sign">New</span>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book5.jpg" alt="product">
-                    <div class="card-title">Batman</div>
-                    <div class="card-price">₹1000</div>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book4.jpg" alt="product">
-                    <div class="card-title">Batman</div>
-                    <div class="card-price">₹1000</div>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book3.jpg" alt="product">
-                    <div class="card-title">Ajaya</div>
-                    <div class="card-price">₹1000</div>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book2.jpg" alt="product">
-                    <div class="card-title">Only Time Will Tell</div>
-                    <div class="card-price">₹1000</div>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img text-over" src="/asset/book6.jpg" alt="product">
-                    <div class="card-title text-over">Ravana</div>
-                    <div class="card-price text-over">₹1000</div>
-                    <span class="text-overlay">Out of Stock</span>
-                    <div class="card-content text-over">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link text-over">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img text-over" src="/asset/book.jpg" alt="product">
-                    <div class="card-title text-over">Inferno</div>
-                    <div class="card-price text-over">₹1000</div>
-                    <span class="text-overlay">Out of Stock</span>
-                    <div class="card-content text-over">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
-                    <div class="card-link text-over">
-                      <div class="card-button">
-                        <a href="#" class="card-cart">Cart</a>
-                      </div>
-                      <div class="card-button">
-                        <a href="#" class="card-wishlist">Wishlist</a>
-                      </div>
-                    </div>
-                </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
             </div>
-            
-        </section>
-    </main>
-    
-        
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="/asset/book7.jpg" alt="product">
+          <div class="card-title">Ram</div>
+          <div class="card-price">₹249</div>
+          <span class="new-sign">New</span>
+          <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
+          <div class="card-link">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="/asset/book5.jpg" alt="product">
+          <div class="card-title">Batman</div>
+          <div class="card-price">₹1000</div>
+          <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
+          <div class="card-link">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="/asset/book4.jpg" alt="product">
+          <div class="card-title">Batman</div>
+          <div class="card-price">₹1000</div>
+          <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
+          <div class="card-link">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="/asset/book3.jpg" alt="product">
+          <div class="card-title">Ajaya</div>
+          <div class="card-price">₹1000</div>
+          <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
+          <div class="card-link">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img" src="/asset/book2.jpg" alt="product">
+          <div class="card-title">Only Time Will Tell</div>
+          <div class="card-price">₹1000</div>
+          <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime!</div>
+          <div class="card-link">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img text-over" src="/asset/book6.jpg" alt="product">
+          <div class="card-title text-over">Ravana</div>
+          <div class="card-price text-over">₹1000</div>
+          <span class="text-overlay">Out of Stock</span>
+          <div class="card-content text-over">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+            maxime!</div>
+          <div class="card-link text-over">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img text-over" src="/asset/book.jpg" alt="product">
+          <div class="card-title text-over">Inferno</div>
+          <div class="card-price text-over">₹1000</div>
+          <span class="text-overlay">Out of Stock</span>
+          <div class="card-content text-over">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+            maxime!</div>
+          <div class="card-link text-over">
+            <div class="card-button">
+              <a href="#" class="card-cart">Cart</a>
+            </div>
+            <div class="card-button">
+              <a href="#" class="card-wishlist">Wishlist</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
 </body>
+
 </html>
