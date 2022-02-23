@@ -17,3 +17,14 @@
 .product-page {
     width: 100%;
 }
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.h1-text {
+    margin-top: 1rem;
+}
