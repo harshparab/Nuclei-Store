@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://nucleiui.netlify.app/css/component.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/utilities.css">
-    <link rel="stylesheet" href="/css/product.css">
-    <title>Nuclei Store | Wishlist</title>
+    <link rel="stylesheet" href="/css/cart.css">
+    <title>Nuclei Store | Cart</title>
 </head>
 
 <body>
@@ -26,11 +26,10 @@
             </ul>
         </nav>
     </div>
-
-    <main>
-        <div class="h1-text">Wishlist</div>
-        <section class="doc-container">
-            <div class="flexbox">
+    <div>
+        <div class="h1-text cart-page">Cart</div>
+        <div class="card-cart-flex">
+            <div class="card-flex">
                 <div class="card">
                     <img class="card-img" src="/asset/book7.jpg" alt="product">
                     <div class="card-title">Ram</div>
@@ -63,45 +62,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book4.jpg" alt="product">
-                    <div class="card-title">Batman</div>
-                    <div class="card-price">₹1000</div>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-                        maxime!
-                    </div>
-                    <div class="card-link">
-                        <div class="card-button">
-                            <a href="#" class="card-cart">Buy</a>
-                        </div>
-                        <div class="card-button">
-                            <a href="#" class="card-wishlist">Remove from Wishlist</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="/asset/book3.jpg" alt="product">
-                    <div class="card-title">Ajaya</div>
-                    <div class="card-price">₹1000</div>
-                    <div class="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-                        maxime!
-                    </div>
-                    <div class="card-link">
-                        <div class="card-button">
-                            <a href="#" class="card-cart">Buy</a>
-                        </div>
-                        <div class="card-button">
-                            <a href="#" class="card-wishlist">Remove from Wishlist</a>
-                        </div>
-                    </div>
-                </div>
             </div>
+            
 
+            <div class="cart">
+                <div class="h2-text cart-heading">Cart Details</div>
+                <ul class="cart-list">
+                    <li class="cart-price">
+                        <div class="p-text">Price</div>
+                        <div class="p-text">$100</div>
+                    </li>
+                    <li class="cart-shipping">
+                        <div class="p-text">Shipping Charges</div>
+                        <div class="p-text">FREE</div>
+                    </li>
+                    <li class="cart-discount">
+                        <div class="p-text">Discount</div>
+                        <div class="p-text">$10</div>
+                    </li>
+                    <div class="horizontal-line"></div>
+                    <li class="cart-total">
+                        <div class="h3-text">Total</div>
+                        <div class="h3-text">$90</div>
+                    </li>
+                </ul>
+                <button class="button">Place Order</button>
+            </div>
+        </div>
 
-        </section>
     </main>
-
-
 </body>
 
 </html>

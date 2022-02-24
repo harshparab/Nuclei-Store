@@ -1,0 +1,50 @@
+.card-cart-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart {
+    width: 50%;
+    box-shadow: var(--box-shadow);
+    padding: 0 2rem;
+    border-radius: 10px;
+}
+
+.cart-heading {
+    padding: 2rem;
+    color: var(--primary-color);
+}
+
+.cart-price {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.cart-shipping {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.cart-discount {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+}
+
+.horizontal-line {
+    margin: 1rem 0;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
