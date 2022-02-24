@@ -1,18 +1,24 @@
 .card-cart-flex {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card-flex {
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
 
+.card {
+    width: 30%;
+}
+
 .cart {
-    width: 50%;
+    width: 40%;
     box-shadow: var(--box-shadow);
     padding: 0 2rem;
     border-radius: 10px;
+    height: fit-content;
 }
 
 .cart-heading {
@@ -48,3 +54,7 @@
     margin: 0 1rem;
 }
 
+.cross-icon {
+    width: 10px;
+    height: 10px;
+}
