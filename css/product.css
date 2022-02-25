@@ -1,3 +1,10 @@
-.card {
-    width: 20%;
+
+.product-page {
+    width: 100%;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
