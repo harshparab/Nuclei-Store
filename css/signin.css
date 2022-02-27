@@ -1,0 +1,48 @@
+.sign-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sign-in {
+    width: 30%;
+    margin: 1rem auto;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.sign-in-heading {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.username-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.password-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.forgot-password {
+    font-style: italic;
+    font-size: 10px;
+}
+
+.forgot-password a {
+    color: var(--danger-color);
+}
+
+.log-in {
+    color: var(--secondary-color);
+}
+
+.create-account-link {
+    font-style: italic;
+    color: var(--text-color);
+}
+
