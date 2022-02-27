@@ -1,6 +1,6 @@
 # Nuclei Store
 
-Nuclei Store is a ecommerce website for books.
+Nuclei Store is an ecommerce website for books.
 
 ### Quick links
 
