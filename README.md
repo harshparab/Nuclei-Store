@@ -1,4 +1,4 @@
-# Nuclei-Store
+# Nuclei Store
 
 Nuclei Store is a ecommerce website for books.
 
